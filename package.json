@@ -1,0 +1,23 @@
+{
+  "name": "ui-automation-selenium",
+  "version": "1.0.0",
+  "description": "UI Automation Testing with Selenium and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 10000 test.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^126.0.1",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "yarn": ">=1.0.0"
+  }
+}
